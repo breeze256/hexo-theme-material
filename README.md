@@ -2,7 +2,7 @@ English | [简体中文](./README.zh.md)
 
 # Material Theme
 
-The Hexo theme using the standard [Material design](https://www.material.io/), is designed to provide a pure and simple user interface.
+The Hexo theme using the standard [Material Design](https://www.material.io/), is designed to provide a pure and simple user interface.
 
 <!-- Some badges are here. -->
 <p>
