@@ -1,6 +1,6 @@
 [English](./README.md) | 简体中文
 
-# Material Theme
+# Material Theme (Dev)
 
 使用规范的 [Material 设计](https://www.material.io/) 的 Hexo 主题，旨在提供纯粹而简单的用户界面。
 
