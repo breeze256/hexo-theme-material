@@ -15,14 +15,21 @@
 <img src="https://i.loli.net/2017/09/07/59b1367f76fdb.png" alt="Material Render Phone">
 </p>
 
+## 亮点
+
+1. 旨在提供最为规范的 Material 设计；
+2. 提供最小的用户界面和最高效的设计；
+3. 轻量而高效，为了剔除不需要的东西；
+4. 长期维护。
+
 ## 快速开始
 
-你可以直接 [下载项目的最新发行版](https://gitee.com/breeze256/hexo-theme-material/releases)，  
+你可以直接 [下载项目的最新发行版](https://github.com/breeze256/hexo-theme-material/releases)，  
 或者，你可以使用 git 来部署：
 
 ```bash
 cd themes
-git clone https://gitee.com/breeze256/hexo-theme-material.git material
+git clone https://github.com/breeze256/hexo-theme-material.git material
 cd material
 git checkout {branch/tags name}
 ```
@@ -30,29 +37,3 @@ git checkout {branch/tags name}
 > 在主题的开发迭代过程中，主题的配置文件模板 **可能会改动**。
 > 为了避免使用 `git pull` 更新主题的用户出现冲突，我们将主题配置文件模板命名为 `_config.template.yml`。
 > 配置主题时，你应该拷贝一份 `_config.template.yml` 并将其重命名为 `_config.yml`。
-
-## 支持
-
-### BroswerStack
-
-![BrowserStack Status](https://www.browserstack.com/automate/badge.svg?badge_key=V1VkWmJMRjJqcHBjN1BIVFRlNzExM05XUk5hemcydEpZTHRBdGd5V244ST0tLTlvNklDT1NuVXFDaTh0RDBnQ3RCdXc9PQ==--c986c45d7c10a3264f46b414944d6393ba74ea22%)
-
-Proudly using BrowserStack.
-
-[![](https://i.loli.net/2017/09/27/59cbc16b0f8b4.png)](https://www.browserstack.com/)
-
-**BrowserStack** is a cloud-based cross-browser testing tool that enables developers to test their websites across various browsers on different operating systems and mobile devices, without requiring users to install virtual machines, devices or emulators.
-
-### jsDelivr
-
-Thanks jsDelivr for providing MaterialCDN service.
-
-**jsDelivr** – Open Source CDN. free, fast, and reliable. You can using the files from GitHub or NPM and serve them using jsDelivr.
-
-[![](https://data.jsdelivr.com/v1/package/npm/hexo-material/badge)](https://www.jsdelivr.com/package/npm/hexo-material)
-
-[`http://cdn.jsdelivr.net/npm/hexo-material/source/`](http://cdn.jsdelivr.net/npm/hexo-material/source/)
-
-[![](https://data.jsdelivr.com/v1/package/gh/bollnh/hexo-theme-material/badge)](https://www.jsdelivr.com/package/gh/bollnh/hexo-theme-material)
-
-[`https://cdn.jsdelivr.net/gh/bollnh/hexo-theme-material/source/`](https://cdn.jsdelivr.net/gh/bollnh/hexo-theme-material/source/)

@@ -15,14 +15,21 @@ The Hexo theme using the standard [Material design](https://www.material.io/), i
 <img src="https://i.loli.net/2017/09/07/59b1367f76fdb.png" alt="Material Render Phone">
 </p>
 
+## Highlights
+
+1. Aims to exec the most standardized Material Design;
+2. Provides minimal user interface and most efficient design;
+3. Lightweight and efficient, in order to eliminate unnecessary things;
+4. Long-term maintenance.
+
 ## Quick Start
 
-You can just [download the latest release](https://gitee.com/breeze256/hexo-theme-material/releases).  
+You can just [download the latest release](https://github.com/breeze256/hexo-theme-material/releases).  
 Or, you can use git to deploy it:
 
 ```bash
 cd themes
-git clone https://gitee.com/breeze256/hexo-theme-material.git material
+git clone https://github.com/breeze256/hexo-theme-material.git material
 cd material
 git checkout {branch/tags name}
 ```
@@ -30,28 +37,3 @@ git checkout {branch/tags name}
 > To avoid conflict for users who are using `git pull` to upgrade the theme, we save the theme config template as `_config.template.yml`.
 > You should make a copy of it and rename to `_config.yml`, then configure `_config.yml` when using the theme.
 
-## Support
-
-### BroswerStack
-
-![BrowserStack Status](https://www.browserstack.com/automate/badge.svg?badge_key=V1VkWmJMRjJqcHBjN1BIVFRlNzExM05XUk5hemcydEpZTHRBdGd5V244ST0tLTlvNklDT1NuVXFDaTh0RDBnQ3RCdXc9PQ==--c986c45d7c10a3264f46b414944d6393ba74ea22%)
-
-Proudly using BrowserStack.
-
-[![](https://i.loli.net/2017/09/27/59cbc16b0f8b4.png)](https://www.browserstack.com/)
-
-**BrowserStack** is a cloud-based cross-browser testing tool that enables developers to test their websites across various browsers on different operating systems and mobile devices, without requiring users to install virtual machines, devices or emulators.
-
-### jsDelivr
-
-Thanks jsDelivr for providing MaterialCDN service.
-
-**jsDelivr** – Open Source CDN. free, fast, and reliable. You can using the files from GitHub or NPM and serve them using jsDelivr.
-
-[![](https://data.jsdelivr.com/v1/package/npm/hexo-material/badge)](https://www.jsdelivr.com/package/npm/hexo-material)
-
-[`http://cdn.jsdelivr.net/npm/hexo-material/source/`](http://cdn.jsdelivr.net/npm/hexo-material/source/)
-
-[![](https://data.jsdelivr.com/v1/package/gh/bollnh/hexo-theme-material/badge)](https://www.jsdelivr.com/package/gh/bollnh/hexo-theme-material)
-
-[`https://cdn.jsdelivr.net/gh/bollnh/hexo-theme-material/source/`](https://cdn.jsdelivr.net/gh/bollnh/hexo-theme-material/source/)
