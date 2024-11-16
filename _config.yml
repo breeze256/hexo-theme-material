@@ -12,8 +12,8 @@ head:
         google:
         baidu:
 
-            # Enable generate structured-data as JSON+LD for SEO or not.
-            #    Set as 'false' if it cause some wrong when `hexo g`.
+        # Enable generate structured-data as JSON+LD for SEO or not.
+        #    Set as 'false' if it cause some wrong when `hexo g`.
     structured_data: true
 
 # Jump Links Settings
@@ -32,7 +32,7 @@ scheme: Paradox
 
 # UI & UX: slogan, color, effect
 uiux:
-    slogan: "自由的风终会吹动木讷的树"
+    slogan: "「自由的风终会吹动木讷的树」"
     theme_color: "#0097A7"
     theme_sub_color: "#00838F"
     hyperlink_color: "#00838F"
@@ -75,10 +75,6 @@ img:
     sidebar_header: "/img/sidebar_header.png"
     random_thumbnail: "/img/random/windy-"
     footer_image:
-        #upyun_logo:
-        #link: "https://www.upyun.com/"
-        #src: "/img/upyun_logo.svg"
-
         # Custom Fonts
         #    family: the font-family which will be used in the theme
         #    use: uri of fonts host.
@@ -87,8 +83,8 @@ img:
         #        - If you have setup your custom font-family, don't forget to add style tag with @font-face or link.tag with font css
         #          to /source/data/head.yml as custom code, to load custom font files.
 fonts:
-    family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif
-    use: google
+    family: Roboto, "Noto Sans CJK SC", "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif
+    use: ustc
     custom_font_host:
 
         # Card Elevation Level
@@ -167,26 +163,26 @@ toc:
 # SNS Menu
 sns:
     email: breeze256@foxmail.com
-    facebook: "https://www.facebook.com/facebook"
-    twitter: "https://twitter.com/twitter"
-    googleplus: "https://www.google.com/"
+    facebook:
+    twitter:
+    googleplus:
     weibo:
     instagram:
     tumblr:
-    github:
+    github: https://github.com/breeze256
     linkedin:
     zhihu:
-    bilibili:
+    bilibili: https://space.bilibili.com/458140021
     telegram:
     v2ex:
     segmentfault:
 
 # SNS Share Switch
 sns_share:
-    twitter: true
-    facebook: true
-    googleplus: true
-    weibo: true
+    twitter: false
+    facebook: false
+    googleplus: false
+    weibo: false
     linkedin: false
     qq: false
     telegram: false
@@ -195,7 +191,7 @@ sns_share:
 sidebar:
     dropdown:
         Email Me:
-            link: "#"
+            link: "mailto:breeze256@foxmail.com"
             icon: email
     homepage:
         use: true
