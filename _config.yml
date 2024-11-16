@@ -162,9 +162,9 @@ sns_share:
   twitter: false
   facebook: false
   googleplus: false
-  weibo: false
+  weibo: true
   linkedin: false
-  qq: false
+  qq: true
   telegram: false
 # Sidebar Customize
 sidebar:
