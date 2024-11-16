@@ -1,6 +1,7 @@
 * text=auto eol=lf
 
 *.txt text
+*.css text
 *.png binary
 *.pdf binary
 *.svg text diff=svgdiff
