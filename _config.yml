@@ -284,7 +284,7 @@ vendors:
   #       jquery: https://cdn.bootcss.com/jquery/2.2.1/jquery.js
   # jQuery 2.2.0
   jquery: https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/jquery/3.5.1/jquery.js
-  nprogress: 
+  nprogress: https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/nprogress/0.2.0/nprogress.js
   fontawesome: https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/font-awesome/6.6.0/css/fontawesome.min.css
   mathjax: https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/mathjax/2.7.9/MathJax.js
   prettify: https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/prettify/r298/prettify.min.js
