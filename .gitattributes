@@ -1,0 +1,10 @@
+* text=auto eol=lf
+
+*.txt text
+*.png binary
+*.pdf binary
+*.svg text diff=svgdiff
+*.html text diff=html
+*.gzip binary
+
+*.symlink text eol=lf
