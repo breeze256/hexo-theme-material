@@ -1,10 +1,31 @@
 <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"], linebreaks: { automatic:true }, EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50) },
-        tex2jax: { inlineMath: [ ["$", "$"], ["\\(","\\)"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno",skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']},
-        TeX: {  noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } }, Macros: { href: "{}" } },
+    MathJax.Hub.Config({
+        "HTML-CSS": {
+            webFont: "STIX-Web",
+            preferredFont: "STIX",
+            availableFonts: ["STIX","TeX"], 
+            linebreaks: { automatic:true }, 
+            EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50) 
+        },
+        tex2jax: { 
+            inlineMath: [ ["$", "$"], ["\\(","\\)"] ], 
+            processEscapes: true, 
+            ignoreClass: "tex2jax_ignore|dno",
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        },
+        TeX: {
+            noUndefined: { 
+                attributes: { 
+                    mathcolor: "red", 
+                    mathbackground: "#FFEEEE", 
+                    mathsize: "90%" 
+                }
+            }, 
+            Macros: { href: "{}" } },
         messageStyle: "none"
     });
 </script>
+
 <script type="text/x-mathjax-config">
     MathJax.Hub.Queue(function() {
         var all = MathJax.Hub.getAllJax(), i;
@@ -13,6 +34,7 @@
         }
     });
 </script>
+
 <% if(theme.vendors.mathjax) { %>
     <script src="<%= theme.vendors.mathjax + '?config=TeX-AMS-MML_HTMLorMML' %>"></script>
 <% } else if(theme.vendors.materialcdn) { %>
