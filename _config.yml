@@ -61,10 +61,10 @@ background:
     parameter:
 # Images Settings
 img:
-  logo: "/img/logo.png"
-  avatar: "/img/avatar.png"
-  daily_pic: "/img/daily_pic.jpg"
-  sidebar_header: "/img/sidebar_header.png"
+  logo: "/img/logo.webp"
+  avatar: "/img/avatar.webp"
+  daily_pic: "/img/daily_pic.webp"
+  sidebar_header: "/img/sidebar_header.webp"
   random_thumbnail: "/img/random/windy-"
   footer_image:
   # Custom Fonts
