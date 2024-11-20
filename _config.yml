@@ -203,38 +203,10 @@ sidebar:
 # If you want to use valine, you should get the app_id and app_key from https://leancloud.cn, more setting please see https://valine.js.org.
 comment:
   use: gitalk
-  shortname: # duoshuo or disqus shortname.
-  changyan_appid:
-  changyan_conf:
-  changyan_thread_key_type:
-  livere_data_uid:
-  gitment_repo: # git repo of the hexo.
-  gitment_owner: # git repo's owner.
-  gitment_client_id: # github app client id.
-  gitment_client_secret: # github app client secret.
-  valine_leancloud_appId: # leancloud application app id.
-  valine_leancloud_appKey: # leancloud application app key.
-  valine_notify: # valine mail notify (true/false) https://github.com/xCss/Valine/wiki.
-  valine_verify: # valine verify code (true/false).
-  valine_pageSize: 10 # comment list page size.
-  valine_avatar: # gravatar style https://valine.js.org/#/avatar.
-  valine_lang: # i18n.
-  valine_placeholder: # valine comment input placeholder (like: Please leave your footprints).
-  valine_guest_info: # valine comment header info.
   gitalk_repo: breeze256.github.io # git repo of the hexo.
   gitalk_owner: breeze256 # git repo's owner.
   gitalk_client_id: Ov23liiaCOuM1ZnaIMWx # github app client id.
   gitalk_client_secret: a9b3c0d5e01003407e31f181ded0fe69f512f260 # github app client secret.
-  wildfire_database_provider: firebase # firebase or wilddog.
-  wildfire_wilddog_site_id:
-  wildfire_firebase_api_key:
-  wildfire_firebase_auth_domain:
-  wildfire_firebase_database_url:
-  wildfire_firebase_project_id:
-  wildfire_firebase_storage_bucket:
-  wildfire_firebase_messaging_sender_id:
-  wildfire_theme: light # light or dark.
-  wildfire_locale: en # en or zh-CN.
 # Search Systems
 # Available value:
 # swiftype | google | local (HAVE ISSUE).
