@@ -1,51 +1,50 @@
-<!-- Post TOC -->
-<% if( (page.toc === true) || (is_post() && page.toc !== false) ) { %>
+<!-- Post TOC button. -->
+<% if ((page.toc === true) || (is_post() && page.toc !== false)) { %>
     <%- partial('_partial/toc_button') %>
 <% } %>
 
-<!-- Layouts -->
-<% if(page.layout === 'tags') { %>
-    <!-- Tags Cloud -->
+<!-- Page layouts. Three special types: tags, links and timeline. -->
+<% if (page.layout === 'tags') { %>
+    <!-- Tags cloud. -->
     <%- partial('_widget/page-tagcloud') %>
 
-<% } else if(page.layout === 'links') { %>
-    <!-- Single Links Page -->
+<% } else if (page.layout === 'links') { %>
+    <!-- Single links page. -->
     <%- partial('_widget/page-links') %>
 
-<% } else if(page.layout === 'timeline') { %>
-    <!-- Single Timeline Page -->
+<% } else if (page.layout === 'timeline') { %>
+    <!-- Single timeline page. -->
     <%- partial('_widget/page-timeline') %>
 
 <% } else { %>
-    <!-- Post Module -->
+    <!-- Post module. -->
     <div class="material-post_container">
-
         <div class="material-post mdl-grid">
+            <!-- Main content. -->
             <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
-
-                <!-- Post Header(Thumbnail & Title) -->
+                <!-- Post header (Thumbnail & Title). -->
                 <%- partial('_partial/post-header') %>
 
                 <% if(page.hide_post_info !== true && theme.scheme === 'Paradox') { %>
-                    <!-- Paradox Post Info -->
+                    <!-- Paradox post info. -->
                     <%- partial('_partial/Paradox-post-info') %>
                 <% } %>
 
-                <!-- Post Content -->
+                <!-- Post content. -->
                 <%- partial('_partial/post-content') %>
 
                 <% if(page.hide_post_info !== true && theme.scheme === 'Isolation') { %>
-                    <!-- Paradox Post Info -->
+                    <!-- Paradox post info. -->
                     <%- partial('_partial/Isolation-post-info') %>
                 <% } %>
 
-                <!-- Post Comments -->
+                <!-- Post comments. -->
                 <% if(page.comment !== false) { %>
                     <%- partial('_partial/comment') %>
                 <% } %>
             </div>
 
-            <!-- Post Prev & Next Nav -->
+            <!-- Post prev & next nav. -->
             <%- partial('_partial/post-nav') %>
         </div>
     </div>
