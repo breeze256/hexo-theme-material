@@ -13,7 +13,7 @@ head:
   structured_data: true
 # Jump link settings.
 url:
-  rss: null
+  rss: /atom.xml
   daily_pic: "#"
   logo: "#"
 
