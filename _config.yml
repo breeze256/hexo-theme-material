@@ -19,8 +19,8 @@ url:
 
 # STYLE SETTINGS.
 # Scheme prefers.
-scheme: Paradox
-# scheme: Isolation
+# scheme: Paradox
+scheme: Isolation
 # UI & UX: slogan, color, effect.
 uiux:
   slogan: 「自由的风终会吹动木讷的树」
