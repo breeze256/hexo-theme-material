@@ -30,7 +30,7 @@ uiux:
   button_color: "#757575"
   android_chrome_color: "#0097A7"
   nprogress_color: "#29d"
-  nprogress_buffer: "800"
+  nprogress_buffer: "225"
 # JS effect switches.
 js_effect:
   fade: true
@@ -157,7 +157,7 @@ sns_share:
   weibo: true
   linkedin: false
   qq: true
-  telegram: false
+  telegram: true
 # Sidebar customize.
 sidebar:
   dropdown:
@@ -180,6 +180,10 @@ sidebar:
     标签:
       link: "/tags"
       icon: label
+      divider: false
+    友链:
+      link: "/links"
+      icon: link
       divider: false
     关于:
       link: "/about"
