@@ -41,7 +41,7 @@ reading:
 # Thumbnail settings.
 thumbnail:
   purecolor: null
-  random_amount: 5
+  random_amount: 3
 # Background settings.
 # bing available parameter:
 # new | color= | type=.
@@ -59,7 +59,7 @@ img:
   avatar: /img/avatar.webp
   daily_pic: /img/daily_pic.webp
   sidebar_header: /img/sidebar_header.webp
-  random_thumbnail: /img/random/windy-
+  random_thumbnail: /img/random/thumb-
   footer_image: null
 # Custom fonts.
 # family: the font-family which will be used in the theme.
@@ -180,7 +180,7 @@ sidebar:
     标签:
       link: "/tags"
       icon: label
-      divider: false
+      divider: true
     友链:
       link: "/links"
       icon: link
@@ -215,7 +215,7 @@ comment:
 # Available value:
 # swiftype | google | local (HAVE ISSUE).
 search:
-  use: google
+  use: local
   swiftype_key: null
 analytics:
   google_site_id: null
